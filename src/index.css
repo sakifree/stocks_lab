@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: salmon;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+.nav a {
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: darkslateblue
+}
